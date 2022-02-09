@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">Food Runner</string>
+    <string name="forgot_password">forgot password ?</string>
+    <string name="sign_up">Don\'t have an account? Sign up now</string>
+    <string name="name">Enter your name (Min. 3 characters)</string>
+    <string name="email">Email Address</string>
+    <string name="phone">Mobile Number(10 digits)</string>
+    <string name="address">Postal Address</string>
+    <string name="password">Password (Min. 4 characters)</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="register">Register</string>
+    <string name="enter_mob_email">Enter your registered mobile number and email below:</string>
+    <string name="next">Next</string>
+    <string name="welcome">Welcome Buddy ! your mobile number and password is:</string>
+    <string name="preference_file">Food Runner Preference</string>
+    <string name="home">Home</string>
+    <string name="favourite">Favourite</string>
+    <string name="profile">Profile</string>
+    <string name="faqs">FAQs</string>
+    <string name="food_runner">Food Runner</string>
+    <string name="open_drawer">Open Drawer</string>
+    <string name="close_drawer">Close Drawer</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="sort">sort</string>
+    <string name="faq_answer_one">A.1 You will be taught using pre-recorded videos and text tutorials. The training has
+        quizzes, assignments, and tests to help you learn better. At the end of the training, you will attempt a project
+        to get hands-on practice of what you learn during your training.
+    </string>
+    <string name="faq_answer_two">A.2 As this is a purely online training program, you can choose to learn at any time
+        of the day. We will recommend a pace to be followed throughout the program, but the actual timings and learning
+        hours can be decided by students according to their convenience.
+    </string>
+    <string name="faq_answer_four">A.4 We recommend spending 10-12 hours per week. However, the actual learning hours
+        can be decided by you as per your convenience.
+    </string>
+    <string name="faq_answer_three">A.3 The training duration is of 6 weeks.</string>
+    <string name="faq_answer_five">A.5 You can choose your preferred batch date while signing up for the training
+        program.
+    </string>
+    <string name="faq_answer_six">A.6 You will be able to download the certificate once you complete your training and
+        take the final test.
+    </string>
+</resources>

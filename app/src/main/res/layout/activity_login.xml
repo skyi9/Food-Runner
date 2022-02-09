@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#f44336"
+    tools:context=".activity.Login">
+
+
+    <EditText
+        android:id="@+id/etMobileNumber"
+        style="@style/TextAppearance.AppCompat.Subhead"
+        android:layout_width="match_parent"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        android:background="#ffffff"
+        android:hint="Mobile Number"
+        android:importantForAutofill="no"
+        android:inputType="number"
+        android:padding="12dp" />
+
+    <EditText
+        android:layout_marginTop="20dp"
+        android:padding="12dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:background="#ffffff"
+        android:hint="Password"
+        android:id="@+id/etPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:importantForAutofill="no" />
+
+    <Button
+        android:background="#ba000d"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        android:id="@+id/btnLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="login" />
+
+    <TextView
+        android:gravity="center"
+        android:layout_marginTop="15dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
+        android:id="@+id/txtForgotPassword"
+        android:textColor="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="@string/forgot_password" />
+
+    <TextView
+        android:gravity="center"
+        android:layout_marginTop="240dp"
+        android:id="@+id/txtRegister"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/sign_up" />
+</LinearLayout>
